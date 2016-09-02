@@ -18,14 +18,12 @@ public class KayDateUtil {
 	public static final String yyyyMMddHHmmss = "yyyyMMddHHmmss";  //2014 06 01 08 30 29
 	public static final String yyyyMMddHHmmssSSS = "yyyyMMddHHmmssSSS";
 	
-	
 	public static final String yyyy_MM = "yyyy-MM";
 	public static final String yyyy_MM_dd = "yyyy-MM-dd";
 	public static final String yyyy_MM_dd_HH = "yyyy-MM-dd HH";
 	public static final String yyyy_MM_dd_HH_mm = "yyyy-MM-dd HH:mm";
 	public static final String yyyy_MM_dd_HH_mm_ss = "yyyy-MM-dd HH:mm:ss";
 	public static final String yyyy_MM_dd_HH_mm_ss_SSS = "yyyy-MM-dd HH:mm:ss:SSS";
-	
 	
 	public static final String yyyy年MM月 = "yyyy年mm月";
 	public static final String yyyy年MM月dd日 = "yyyy年MM月dd日";
@@ -39,8 +37,9 @@ public class KayDateUtil {
 	public static final String yyyy_MM_dd_H_mm_ss = "yyyy-MM-dd H:mm:ss";
 	public static final String yyyy年MM月dd日H时mm分ss秒 = "yyyy年MM月dd日H时mm分ss秒";
 	
-	
 	public static final String[] formatArr = {yyyy,yyyyMM,yyyyMMdd,yyyymmddHH,yyyymmddHHmm,yyyyMMddHHmmss,yyyyMMddHHmmssSSS,yyyyMMddHmmss};
+	
+	private KayDateUtil() {}
 	
 	/**
 	 * Date To String
@@ -244,5 +243,6 @@ public class KayDateUtil {
 	 */
 	public static void main(String[] args) {
 	}
+	
 
 }
